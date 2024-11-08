@@ -12,7 +12,7 @@ Now that you have the source code on your server, move it to the directory of yo
 
 ## Setup
 Get an API key for Cirrus API, learn how to get one [here](https://api.cirrus.center/docs/hc/articles/3/14/11/api-keys)
-Now that you have your API key, put it in /auth/index.php and replace "API_KEY" with your actual API key
+Now that you have your API key, put it in /auth/index.php and replace "API_KEY" with your actual API key (also put it in /logout/index.php to enable the logout feature, otherwise it will be disabled)
 
 ## Settings
 You can change where the form will redirect to after a successful login. You can change the location in /auth/callback/index.php
